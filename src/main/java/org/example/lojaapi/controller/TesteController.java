@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.*;
 public class TesteController {
     @GetMapping("/teste")
     public String teste(){
-        return "teste funcionando";
+        return "teste funcionando (loja)";
     }
 }
