@@ -19,7 +19,7 @@ public class ClienteController {
         this.service = service;
     }
 
-    @GetMapping
+    @GetMapping("/listar")
     public List<Cliente> listar(){
         return service.listarTodos();
     }
